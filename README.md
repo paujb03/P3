@@ -14,7 +14,7 @@ Ejercicios básicos
   `get_pitch`.
 
    * Complete el cálculo de la autocorrelación e inserte a continuación el código correspondiente.
-	![image](https://github.com/user-attachments/assets/8fa90128-170c-48db-9ba6-83bf9fe234fe)
+![image](https://github.com/user-attachments/assets/8fa90128-170c-48db-9ba6-83bf9fe234fe)
 
 
    * Inserte una gŕafica donde, en un *subplot*, se vea con claridad la señal temporal de un segmento de
@@ -23,13 +23,15 @@ Ejercicios básicos
 
 	 NOTA: es más que probable que tenga que usar Python, Octave/MATLAB u otro programa semejante para
 	 hacerlo. Se valorará la utilización de la biblioteca matplotlib de Python.
+![image](https://github.com/user-attachments/assets/b78c2c2a-4ec1-42d5-8871-14a5b4a738dd)
+
 
    * Determine el mejor candidato para el periodo de pitch localizando el primer máximo secundario de la
      autocorrelación. Inserte a continuación el código correspondiente.
 ![image](https://github.com/user-attachments/assets/09495213-dd40-4992-8940-8544a239b9a9)
 
    * Implemente la regla de decisión sonoro o sordo e inserte el código correspondiente.
-  ![image](https://github.com/user-attachments/assets/a2e5e4b9-e935-4b8f-a71f-fc459b39eb53)
+![image](https://github.com/user-attachments/assets/a2e5e4b9-e935-4b8f-a71f-fc459b39eb53)
 
 
    * Puede serle útil seguir las instrucciones contenidas en el documento adjunto `código.pdf`.
@@ -80,6 +82,7 @@ Ejercicios de ampliación
 
   * Inserte un *pantallazo* en el que se vea el mensaje de ayuda del programa y un ejemplo de utilización
     con los argumentos añadidos.
+    El gráfico presenta, en orden descendente, los siguientes parámetros: el nivel de potencia de la señal, el valor de rmaxnorm y la autocorrelación normalizada.
 ![image](https://github.com/user-attachments/assets/fccea1f4-f04c-4799-bd99-e7a9701d386c)
 
 - Implemente las técnicas que considere oportunas para optimizar las prestaciones del sistema de estimación
@@ -105,6 +108,9 @@ Ejercicios de ampliación
   También se valorará la realización de un estudio de los parámetros involucrados. Por ejemplo, si se opta
   por implementar el filtro de mediana, se valorará el análisis de los resultados obtenidos en función de
   la longitud del filtro.
+![image](https://github.com/user-attachments/assets/2c82e574-8e7b-437c-ba74-2d476f420351)
+![image](https://github.com/user-attachments/assets/cd23ead5-2537-4e51-9829-a3ebe2531f9b)
+
    
 
 Evaluación *ciega* del estimador
