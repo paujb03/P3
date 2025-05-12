@@ -14,6 +14,7 @@ Ejercicios básicos
   `get_pitch`.
 
    * Complete el cálculo de la autocorrelación e inserte a continuación el código correspondiente.
+	![image](https://github.com/user-attachments/assets/be8412e1-f933-4df2-a7a9-05ccebd55b6c)
 
    * Inserte una gŕafica donde, en un *subplot*, se vea con claridad la señal temporal de un segmento de
      unos 30 ms de un fonema sonoro y su periodo de pitch; y, en otro *subplot*, se vea con claridad la
@@ -39,6 +40,8 @@ Ejercicios básicos
 	    principales candidatos para determinar la sonoridad de la voz: el nivel de potencia de la señal
 		(r[0]), la autocorrelación normalizada de uno (r1norm = r[1] / r[0]) y el valor de la
 		autocorrelación en su máximo secundario (rmaxnorm = r[lag] / r[0]).
+![image](https://github.com/user-attachments/assets/1f261273-e247-4095-a431-7dd5a9ed1a47)
+
 
 		Puede considerar, también, la conveniencia de usar la tasa de cruces por cero.
 
@@ -48,6 +51,8 @@ Ejercicios básicos
       - Use el estimador de pitch implementado en el programa `wavesurfer` en una señal de prueba y compare
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
 		ilustrativa del resultado de ambos estimadores.
+![image](https://github.com/user-attachments/assets/d4781abc-991b-4d9f-81a9-2aaa72baba6b)
+
      
 		Aunque puede usar el propio Wavesurfer para obtener la representación, se valorará
 	 	el uso de alternativas de mayor calidad (particularmente Python).
@@ -55,6 +60,9 @@ Ejercicios básicos
   * Optimice los parámetros de su sistema de estimación de pitch e inserte una tabla con las tasas de error
     y el *score* TOTAL proporcionados por `pitch_evaluate` en la evaluación de la base de datos 
 	`pitch_db/train`..
+![image](https://github.com/user-attachments/assets/cf43e047-fd55-485b-aa60-ac346538cb60)
+
+
 
 Ejercicios de ampliación
 ------------------------
@@ -68,6 +76,7 @@ Ejercicios de ampliación
 
   * Inserte un *pantallazo* en el que se vea el mensaje de ayuda del programa y un ejemplo de utilización
     con los argumentos añadidos.
+![image](https://github.com/user-attachments/assets/fccea1f4-f04c-4799-bd99-e7a9701d386c)
 
 - Implemente las técnicas que considere oportunas para optimizar las prestaciones del sistema de estimación
   de pitch.
